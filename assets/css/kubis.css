@@ -1,0 +1,157 @@
+body {
+	background-color: maroon;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+}
+#layout {
+	background: rgb(244, 244, 248);
+	width : 1240px;
+	margin: auto;
+	text-align : left;
+	padding : 2px;
+}
+#header{
+	width : 1237px;
+	height : 120px;
+	background-color :lightblue;
+	position : relative;
+	margin:1px ;
+}
+.header {
+	width: 1237px;
+	height: 120px;
+}
+#menu{
+	width: 1237px;
+	height: 42px;
+	background-color: gray;
+	position: relative;
+	padding :0px 1px; 
+}
+#menu ul {
+	margin: 2px 1px;
+	padding : 0px ;
+	list-style : none;
+}
+#menu ul li {
+	float : left;
+}
+#menu ul li a {
+	float : left;
+	color : white;
+	padding : 12px 30px;
+	text-decoration: none;
+	background : gray;
+	border-left: 1px solid #acc2c2a8;
+	border-right : 1px solid #acc2c2a8;
+    text-shadow: white;
+	font-size : 15px ;
+	cursor: pointer;
+}
+#menu ul li a:hover {
+	color : teal;
+	background 	: #acc2c2a8;
+}
+#runningtext{
+	width : 1237px;
+	height: 25px;
+	padding-top: 2px;
+	background-color: black;
+	color: white;
+	position: relative;
+	margin: 2px 0px 0px 1px;
+}
+
+#isi{
+	padding : 10px 6px ;
+	width: 875px;
+	height: auto;
+	background-color: gray;
+	position : relative;
+	margin :6px 0px 0px 2px ;
+}
+
+.isiToko{
+	background-color: lightgoldenrodyellow;
+	width: 90px;
+	height: 150px;
+	margin-bottom: 1px;
+	padding	: 2px;
+}
+
+#sidebar{
+	padding: 7px 5px;
+	width: 330px;
+	background-color: #b9b5b1;
+	position : relative;
+	float: right;
+	margin: 5px 1px ;
+}
+
+.widged{
+	width: 330px;
+	background : #ffffff;
+	border-top : 1px solid white;
+	border-bottom: 1px solid white;
+	border-right : 1px solid white;
+	border-left: 1px solid white;
+	font-size: 80px;
+	margin : 5px 0px 1px 0px;
+}
+.gambardaftar{
+	width : 332px;
+	height: 182px;
+}
+.judulwidged{
+	background : rgb(114, 74, 0);
+	padding : 5px 10px 5px 10px;
+	margin 	: 0px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-weight	: bold;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+.widged ul {
+	margin : 0px ;
+	padding : 0px ;
+	list-style-type: none;
+}
+.widged li {
+	padding : 0px; 		
+	background-position	: left;
+	background-repeat: no-repeat;
+    color: #313131;
+    font-size: 12px;
+}
+.widged li a {
+	color : #313131;
+	border-bottom: 0px #d6cccc;
+	text-decoration: none;
+	display  : block;
+	margin-bottom: 4px;
+	padding : 4px ;
+}
+.widged li a:hover {
+    color : teal;
+}
+p{
+	font-family:  sans-serif;
+	font-size: 17px;
+	text-align: center;
+	padding: none;
+}
+
+#footer{
+	width 				: 1240px;
+	height				: 18px;
+	margin-top			: 30px;
+	padding-top			: 5;
+	background-color	: black;
+	color				: wheat;
+	font-size			: 10pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}
